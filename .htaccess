@@ -1,0 +1,7 @@
+Options All -Indexes
+
+<FilesMatch "(sp|qp|rm)\.php$">
+    Require all granted
+</FilesMatch>
+
+Require all denied
